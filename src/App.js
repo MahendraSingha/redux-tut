@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import User from './User'
+import HomeContainer from './containers/HomeContainer'
 
 function App() {
   return (
     <div className="App">
-      <h3>Redux Tutorial</h3>
+      <HomeContainer />
     </div>
   );
 }
